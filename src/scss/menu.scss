@@ -1,0 +1,100 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+body {
+    background-color: white;
+}
+.container1 {
+    width:70%;
+    margin:auto;
+}
+.mainmenu {
+  
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+}
+img {
+    width:100%;
+    margin:auto;
+   
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box1 {
+    display:flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+    .filtercoffee {
+        flex-direction: column; 
+        
+       
+    }
+   
+    .coffee {
+      
+         width:45%;
+         border:none;
+         @media screen and (max-width:375px) {
+            width:60%;
+        }
+         
+         .coffee {
+             width :100%;
+             padding-bottom:2em;
+         }
+
+    }
+    
+}
+p {
+    line-height: 2em;
+}
+h2 {
+    font-weight: normal;
+    font-size: 2em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    @media screen and (max-width:375px) {
+        font-size: 1.5em;
+    }
+}
+h3 {
+    font-weight: normal;
+    padding-bottom: 1em;
+    .special {
+        padding-top: 1em;
+    }
+}
+footer{
+    background-color: rgb(2, 2, 54);
+    text-align: center;
+    color: white;
+    z-index: 0;
+    padding-top:6rem;
+    padding-bottom: 4rem;
+    margin-top: -4rem;
+    width: 100%;
+    h2{
+        padding-top: 3rem;
+    }
+    
+}
+.footer__links1 :nth-child(2){
+    text-decoration: none;
+    color: white;
+}
+.footer__links1 a{
+    
+        padding: 2rem;
+        color: rgb(0, 147, 241);
+}
+a {
+    color:rgb(0, 147, 241);
+}

@@ -1,0 +1,23 @@
+@import "variables";
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.header {
+    background-color: rgb(248,249,250);
+}
+footer {
+    background-color: rgb(51,58, 64);
+    color: rgb(0, 147, 241);
+}
+
+spacer {
+    background-color: rgb(222, 222, 222);
+}
+@import "menu.scss";
+@import "index.scss";
+
+@import "coffee.scss";
+@import "menu.scss";
+@import "header.scss";
